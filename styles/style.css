@@ -76,6 +76,10 @@ nav ul li a{
     width: 100%;
 }
 
+
+
+/* Responsive For Small Divices */
+
 @media screen and (max-width: 576px) {
     
     header{
@@ -84,14 +88,31 @@ nav ul li a{
     nav{
         flex-direction: column;
     }
+    .banner-text{
+        max-width: 100%;
+    }
     .banner-img img{
         width: 100%;
     }
     .banner-img{
             width: 100%;
-            height: 250px;
     }
 
 
+    }
+
+    /* Responsive For Medium Devices */
+
+    @media screen and (max-width: 960px) {
+        header{
+            padding: 20px 40px;
+        }
+        .banner-img img{
+            width: 100%;
+        }
+        .banner-img{
+            width: 100%;
+            height: 400px;
+    }
 
     }
