@@ -23,11 +23,13 @@ body{
     border: none;
     background-color: #FF900E;
     color: white;
-    margin: 1.25rem 1.25rem;
+
 }
 .paragraph-text{
     font-size: 0.75rem;
     color: #727272;
+    line-height: 20px;
+    margin: 1.25rem 0px;
 }
 
 /* Header Section Styles */
@@ -65,7 +67,7 @@ nav ul li a{
 }
 .banner-text h1{
     font-size: 50px;
-    margin-bottom: 1.25rem;
+
 }
 .banner-img{
     height: 500px;
@@ -75,6 +77,35 @@ nav ul li a{
 .banner-img img{
     width: 100%;
 }
+
+/* Team section Styles */
+
+main{
+    margin: 100px 170px;
+}
+.team-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+.img-container img{
+    height: 220px;
+    width: 220px;
+}
+.featured-text{
+    margin: 0px 50px;
+    
+}
+.featured-text button{
+    margin-left: 0px;
+}
+
 
 
 
@@ -97,15 +128,27 @@ nav ul li a{
     .banner-img{
             width: 100%;
     }
-
+    .team-container{
+        flex-direction: column;
+    }
+    .img-container{
+        margin-bottom: 50px;
+    }
+    .img-container img{
+        height: 130px;
+        width: 130px;
+    }
+    main{
+        margin: 50px 20px;
+    }
 
     }
 
     /* Responsive For Medium Devices */
 
-    @media screen and (max-width: 960px) {
+    @media screen and (max-width: 1200px) and (min-width: 577px) {
         header{
-            padding: 20px 40px;
+            padding: 20px 100px;
         }
         .banner-img img{
             width: 100%;
