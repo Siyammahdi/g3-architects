@@ -100,13 +100,65 @@ main{
     height: 220px;
     width: 220px;
 }
-.featured-text{
+.team-text{
     margin: 0px 50px;
     
 }
-.featured-text button{
+.team-text button{
     margin-left: 0px;
 }
+
+/* Featured Section Styles */
+
+.featured-text{
+    width: 80%;
+    margin: auto;
+}
+.featured-heading h3{
+    border-left: 3px solid #FF900E;
+    padding-left: 15px;
+}
+.featured-card{
+    padding: 20px;
+    margin: 15px 0px;
+    box-shadow: 0px 0px 20px #ececec;
+}
+.featured-card p{
+    margin: 5px 0px;
+}
+
+
+.featured-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.featured-img img{
+    width: 500px;
+    height: 700px;
+    margin-left: 100px;
+}
+.exp-card{
+    height: 100px;
+    width: 200px;
+    background-color: #FF900E;
+    position: absolute;
+    right: 350px;
+    top: 630px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.exp-card h1{
+    font-size: 35px;
+
+}
+
 
 /* Facts Section Styles */
 
@@ -196,6 +248,23 @@ footer{
     main{
         margin: 50px 20px;
     }
+
+    .featured-text{
+        width: 100%;
+    }
+    .featured-container{
+        flex-direction: column;
+    }
+
+    .featured-img img{
+        margin: 100px 0px;
+        width: 100%;
+    }
+    .exp-card{
+        top: 1490px;
+        right: 80px;
+    }
+
     .facts-card-container{
         flex-direction: column;
     }
