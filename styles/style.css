@@ -311,5 +311,20 @@ footer{
             height: 100px;
             width: 100px;
         }
+        .featured-text{
+            width: 100%;
+        }
+        .featured-container{
+            flex-direction: column;
+        }
+    
+        .featured-img img{
+            margin: 100px 0px;
+            width: 100%;
+        }
+        .exp-card{
+            top: 1320px;
+            right: 450px;
+        }
 
     }
